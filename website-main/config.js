@@ -175,7 +175,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'About the Author',
-            image: '/Users/angelica_dejesus/Documents/GitHub/UnMapping/website-main/Images/BambooBlackAndWhite.JPG',
+            image: '/Users/angelica_dejesus/Documents/GitHub/UnMapping/website-main/BambooBlackAndWhite.JPG',
             description: 'I am Angélica De Jesus, doctoral student and mami living and visiting in Nkewjong, Michigan. My mothers people are from Mexico and my fathers people are from Borinkén. Nkwejong, like much of the Great Lakes region, is the contemporary and ancestral homelands of the Anishinaabeg peoples, the Confederacy of the People of the Three Fires. Like the Caribbean, it is a place forged of blood and violence, but also shaped by the survival of Indigenous and Black/Afro-descendant peoples. I, like many other Michigan State University students, are specially indebted (in a good way) to the Anishinaabeg peoples whose continual surivance in the face of settler colonialism, shapes the worlds and landscapes upon which MSU exists and that we learn and benefit from today. As an MSU instructor and student I am honored to work towards being in good relationship with Indigenous peoples of this place and I am honored work towards being a good prima-de-afuera to all my Caribbean cousins, human and more than human.',
             location: {
                 center: [-84.54733, 42.72498],
