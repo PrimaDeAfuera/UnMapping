@@ -16,7 +16,7 @@
             font-family: Helvetica, sans-serif;
         }
         a, a:hover, a:visited {
-            color: #face5f;
+            color: #9b15a7;
         }
         #map {
             top:0;
@@ -39,6 +39,8 @@
         #mapInset .mapboxgl-ctrl-bottom-left{
             display: none;
         }*/
+        /* deleted inset map*/ 
+        
         @media (max-width: 500px) {
             #mapInset {
                 display: none;
@@ -90,12 +92,12 @@
             margin: auto;
         }
         .light {
-            color: #444444;
-            background-color: #fafafa;
+            color: #000000;
+            background-color: #ffffff;
         }
         .dark {
-            color: #fafafa;
-            background-color: #092c0aef;
+            color: #060606;
+            background-color: #ffffff;
             /* visual style of the text boxes*/
         }
         .step {
@@ -351,7 +353,7 @@ map.on("load", function() {
 
         // Incase you do not want to have a dynamic inset map,
         // rather want to keep it a static view but still change the
-        // bbox as main map move: comment out the below if section.
+        // bbox as main map move: comment out (i.e. make null) the below if section.
         if (config.inset) {
           if (chapter.location.zoom < 5) {
             insetMap.flyTo({center: chapter.location.center, zoom: 0});
