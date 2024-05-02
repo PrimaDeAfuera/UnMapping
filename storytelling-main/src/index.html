@@ -40,7 +40,6 @@
             display: none;
         }*/
         /* deleted inset map*/ 
-
         
         @media (max-width: 500px) {
             #mapInset {
@@ -354,7 +353,7 @@ map.on("load", function() {
 
         // Incase you do not want to have a dynamic inset map,
         // rather want to keep it a static view but still change the
-        // bbox as main map move: comment out the below if section.
+        // bbox as main map move: comment out (i.e. make null) the below if section.
         if (config.inset) {
           if (chapter.location.zoom < 5) {
             insetMap.flyTo({center: chapter.location.center, zoom: 0});
