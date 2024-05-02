@@ -13,7 +13,8 @@ var config = {
     title: ' (Un)Mapping Conservation in Borinken',
     // subtitle: ' “Every place has an energy, a vibration” - Dr. Michelle Montgomery, University of Washington- Tacoma',//
     byline: 'Return to Home <a href="site-index.html">Home</a> ',
-    footer: 'Sources <a href="https://UnMappingBorinken.com" target="_blank">here</a> <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    // In future, add to footer: 'Sources <a href="https://UnMappingBorinken.com" target="_blank">here</a> //
+    footer: ' <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
             id: 'slug-style-id',
